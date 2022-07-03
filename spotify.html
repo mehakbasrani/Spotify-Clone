@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify-Your Fav Music App</title>
+    <link rel="stylesheet" href="spotify.css">
+   
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="spotify.jpg.png" alt="Spotify logo" id="logo">Spotify</li>
+            <li><a href="https://open.spotify.com/">Home</a></li>
+            <li><a href="">About</a></li>
+        </ul>
+    </nav>
+  <div id="container">
+      <div class="songlist">
+          <div class="songItem">
+              <span class="coverImage"><img src="covers/cover1.jpg" alt="1"></span>
+              <span class="songName">Jhoom-Ali Zafar</span>
+              <span class="songPLay">  <i id="0" class="far songItemPlay fa-play-circle" ></i></span>
+         </div>
+          <div class="songItem">
+              <span class="coverImage"><img src="covers/cover2.jpeg" style="height: 40px;" alt="1"></span>
+              <span class="songName">Filhaal 2 Mohabbat</span>
+              <span class="songPLay">  <i id="1" class="far songItemPlay fa-play-circle" ></i></span>
+            </div>
+          <div class="songItem">
+              <span class="coverImage"><img src="covers/cover3.jpg" style="height: 40px;" alt="1"></span>
+              <span class="songName">Kasoor - Prateek Kuhad</span>
+              <span class="songPLay">  <i id="2" class="far songItemPlay fa-play-circle" ></i></span>
+            </div>
+          <div class="songItem">
+              <span class="coverImage"><img src="covers/cover4.jpg" alt="1"></span>
+              <span class="songName">Chaand Baaliyan - Aditya A</span>
+              <span class="songPLay">  <i id="3" class="far songItemPlay fa-play-circle" ></i></span>
+            </div>
+          <div class="songItem">
+              <span class="coverImage"><img src="covers/cover5.jpeg" alt="1"></span>
+              <span class="songName">Tu Aake Dekhle-King</span>
+              <span class="songPLay">  <i id="4" class="far songItemPlay fa-play-circle" ></i></span>
+            </div>
+          <div class="songItem">
+              <span class="coverImage"><img src="covers/cover6.jpg" alt="1"></span>
+              <span class="songName">Pasoori</span>
+             <span class="songPLay">  <i id="5" class="far songItemPlay fa-play-circle" ></i></span>
+          </div>
+          <div class="songItem">
+              <span class="coverImage"><img src="covers/cover7.jpg" style="height: 40px;" alt="1"></span>
+              <span class="songName">Soch-Hardy Sandhu</span>
+              <span class="songPLay">  <i id="6" class="far songItemPlay fa-play-circle" ></i></span>
+            </div>
+          <div class="songItem">
+              <span class="coverImage"><img src="covers/cover8.jpeg" style="height: 40px;" alt="1"></span>
+              <span class="songName">Kehndi Hundi Si</span>
+              <span class="songPLay">  <i id="7" class="far songItemPlay fa-play-circle" ></i></span>
+            </div>
+          <div class="songItem">
+              <span class="coverImage"><img src="covers/cover9.jpeg" alt="1"></span>
+              <span class="songName">Perfect-Ed-Sheeran</span>
+              <span class="songPLay">  <i id="8" class="far songItemPlay fa-play-circle" ></i></span>
+            </div>
+          <div class="songItem">
+              <span class="coverImage"><img src="covers/cover10.jpg" style="height: 40px;" alt="1"></span>
+              <span class="songName">Make You Mine-Public</span>
+              <span class="songPLay">  <i id="9" class="far songItemPlay fa-play-circle" ></i></span>
+          </div>
+    </div>
+      <div class="songbanner"></div>
+  </div> 
+  <div class="bottom">
+      <input type="range" name="range" id="range" value="0">
+      <div id="icons">
+      <i class="fas fa-3x fa-step-backward" id="previous"></i>
+      <i class="far fa-3x fa-play-circle" id="masterPlay"></i>
+      <i class="fas fa-3x fa-step-forward" id="next"></i> 
+      <div id="gifName"><img src="playing.gif" alt="gif here" id="gif"><span id="masterSongName">Jhoom-Ali Zafar </span>
+  </div> </div></div>
+  <script src="spotify.js"></script>
+  <script src="https://kit.fontawesome.com/d59e9703a2.js" crossorigin="anonymous" ></script>
+</body>
+</html>
